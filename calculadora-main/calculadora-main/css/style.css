@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #090c31;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estilo para la calculadora en modo oscuro */
+.calculadora {
+    background-color: #15173c;
+    color: white;
+    width: 420px;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Pantalla de la calculadora */
+.pantalla {
+    grid-column: 1 / -1;
+    background-color: #090c31;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+/* estilo de Botones */
+.btn_estilo{
+    background-color: #15173c;
+    color: white;
+    border: 0;
+    padding: 1.5rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn_estilo:hover {
+    background-color: #090c31;
+}
+
+/* Botón de igual */
+#igual {
+    grid-row: span 2;
+    background-color: #e6394a;
+}
+
+#igual:hover {
+    background-color: #e65766;
+}
+
+
+/* Modo claro */
+
+.lightModebody .calculadora {
+    background-color: rgb(211, 211, 211);
+    color: #333;
+}
+
+
+.lightModebody .pantalla {
+    background-color: #acacac;
+}
+
+.lightModebody .btn_estilo{
+    background-color: rgb(211, 211, 211);
+    color: #000000;
+}
+
+.lightModebody .btn_estilo:hover {
+    background-color: rgb(173, 173, 173);
+}
+
+.lightModebody #igual{
+    background-color: yellow;
+}
+
+.lightModebody{
+    background-color: #6e6e6e !important;
+}
