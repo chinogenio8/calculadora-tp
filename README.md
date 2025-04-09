@@ -48,20 +48,5 @@ Una calculadora web moderna con múltiples funcionalidades y una interfaz amigab
 ## Tecnologías utilizadas
 
 - HTML5
-- CSS3
+- CSS
 - JavaScript
-- Material Symbols (iconos)
-
-## Estructura del proyecto
-
-```
-calculadora-tp/
-├── css/
-│   ├── style.css
-│   └── modal.css
-├── js/
-│   └── script.js
-├── audio/
-│   └── click.mp3
-└── index.html
-```
