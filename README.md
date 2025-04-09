@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/aec913db-4e4e-45c0-8dbd-17af7ce57fd1)
+
+
 # Calculadora Avanzada
 
 Una calculadora web moderna con múltiples funcionalidades y una interfaz amigable.
@@ -52,7 +55,7 @@ Una calculadora web moderna con múltiples funcionalidades y una interfaz amigab
 ## Estructura del proyecto
 
 ```
-calculadora-main/
+calculadora-tp/
 ├── css/
 │   ├── style.css
 │   └── modal.css
@@ -62,7 +65,3 @@ calculadora-main/
 │   └── click.mp3
 └── index.html
 ```
-
-## Requisitos
-
-- Navegador web moderno (Chrome, Firefox, Safari, Edge)
