@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/aec913db-4e4e-45c0-8dbd-17af7ce57fd1)
+![image](https://github.com/user-attachments/assets/cab0d9ad-3d29-4981-b822-8251cb4207e9)
 
 
 # Calculadora Avanzada
