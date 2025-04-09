@@ -1,0 +1,84 @@
+.ventanaEmergente {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: var(--bg-color);
+    color: var(--text-color);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.historial-list {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.historial-item {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.3rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-color);
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.historial-item:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.close-modal {
+    width: 100%;
+    padding: 0.75rem;
+    background: var(--btn-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.close-modal:hover {
+    background: var(--btn-hover);
+}
+
+/* Modo claro */
+.lightModebody .historial-list {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.lightModebody .historial-item {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.lightModebody .historial-item:hover {
+    background: rgba(0, 0, 0, 0.15);
+}
